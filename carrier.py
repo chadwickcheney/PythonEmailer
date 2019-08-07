@@ -7,10 +7,9 @@ import email
 
 
 class Carrier:
-    #def __init__(self, username='enginecommerce.tester@gmail.com', password='System76'):
-    def __init__(self, username='chdwckchny@gmail.com', password='Lieutenantw3ck'):
-        self.username = username
-        self.password = password
+    def __init__(self, username='', password:''):
+        self.username = str(input('username: '))
+        self.password = str(input('password: '))
         self.ll = inbox.linked_list()
 
     def fetch(self):
